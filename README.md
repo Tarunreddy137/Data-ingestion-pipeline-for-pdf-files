@@ -1,5 +1,5 @@
-# Data-ingestion-pipeline-for-pdf- files (Unstructured to Structured)
-## Overview
+# Data-ingestion-pipeline-for-pdf- files 
+## Overview (unstructured to structured data)
 This project provides a complete pipeline to ingest and transform unstructured text from PDF files into a structured format ready for analysis, reporting, or further processing. It includes PDF extraction, preprocessing, structured transformation, pipeline metrics, and export to standard formats.
 ## Data Ingestion Layer (PDF Input)
 The ingestion layer extracts raw, unstructured data from PDF documents and transforms it into a machine-readable tabular format.
