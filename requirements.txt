@@ -1,0 +1,8 @@
+## Prerequisites
+ Python 3.8+
+ Install dependencies:
+## Libraries Used
+  pdfplumber / PyMuPDF — PDF text and layout extraction
+  pandas — DataFrame operations and export
+  re — Regular expression parsing
+  logging — Pipeline status and metric logging
