@@ -6,12 +6,12 @@ The ingestion layer extracts raw, unstructured data from PDF documents and trans
 ### Key Steps:
 	Load PDF files from a local path, cloud storage, or API.
 	Extract textual content using libraries such as:
-	PyMuPDF (fitz)
-	pdfminer.six
-	pdfplumber
+		PyMuPDF (fitz)
+		pdfminer.six
+		pdfplumber
 	Parse content by:
-	Identifying headers, tables, and key-value pairs
-	Splitting paragraphs or sections by logical structure
+		Identifying headers, tables, and key-value pairs
+		Splitting paragraphs or sections by logical structure
 	Extract specific entities (e.g., names, dates, titles, transaction details)
 	Convert extracted fields into a structured format (e.g., Pandas DataFrame)
 	Log ingestion stats such as number of pages, parsing success, errors
